@@ -1,0 +1,89 @@
+================================================================================
+Dancing with the Stars Counterfactual Analysis Report
+Quantitative Analysis of Power Struggle between Judge Scores and Fan Votes
+================================================================================
+Generation Time: 2026-02-01 15:37:28
+
+1. Overall Statistics
+----------------------------------------
+Total Weeks Analyzed: 286
+Judge Reversal Rate: 0.5594 (55.94%)
+Fan Reversal Rate: 0.6608 (66.08%)
+Power Struggle Index: -0.1014
+  Interpretation: Negative value means the show is more like a 'popularity contest' (Fans have more say)
+
+2. Analysis by Voting Phase
+----------------------------------------
+rank_regular:
+  Sample Weeks: 13
+  Judge Reversal Rate: 0.5385 (53.85%)
+  Fan Reversal Rate: 0.7692 (76.92%)
+  Power Struggle Index: -0.2308
+  Inclination: Fan-biased (Popularity Contest)
+
+percentage_regular:
+  Sample Weeks: 214
+  Judge Reversal Rate: 0.5421 (54.21%)
+  Fan Reversal Rate: 0.5935 (59.35%)
+  Power Struggle Index: -0.0514
+  Inclination: Fan-biased (Popularity Contest)
+
+rank_bottom_two:
+  Sample Weeks: 59
+  Judge Reversal Rate: 0.6271 (62.71%)
+  Fan Reversal Rate: 0.8814 (88.14%)
+  Power Struggle Index: -0.2542
+  Inclination: Fan-biased (Popularity Contest)
+
+3. Seasonal Trend Analysis
+----------------------------------------
+Season with Highest Judge Reversal Rate: Season 17 (0.8750)
+Season with Highest Fan Reversal Rate: Season 34 (1.0000)
+Most Judge-biased Season: Season 26 (Index: 0.2500)
+Most Fan-biased Season: Season 30 (Index: -0.5556)
+
+Judge Reversal Rate Trend: y = 0.004275x + 0.4762
+Fan Reversal Rate Trend: y = 0.003191x + 0.5944
+  Judge reversal rate is on the rise (Increased judge influence)
+  Fan reversal rate is on the rise (Increased fan influence)
+
+4. Reversal Strength Analysis
+----------------------------------------
+Average Judge Reversal Strength: 0.3473
+  Explanation: Closer to 1 means contestants with the lowest judge scores but high fan support successfully advanced
+Average Fan Reversal Strength: 0.4409
+  Explanation: Closer to 1 means contestants with the lowest fan votes but high judge scores successfully advanced
+
+5. Key Findings & Interpretations
+----------------------------------------
+1. Power Struggle Quantification:
+   - Judge Reversal Rate: In 55.9% of weeks, contestants with the lowest judge scores successfully advanced
+   - Fan Reversal Rate: In 66.1% of weeks, contestants with the lowest fan votes successfully advanced
+   - The show is overall biased towards the 'popularity contest' model, with fans having significantly more say than judges
+
+2. Impact of Competition System Evolution:
+   - Ranking System (Seasons 1-2): Relatively balanced power between judges and fans
+   - 100-Point System (Seasons 3-27): Increased fan weight, leading to changes in reversal rate characteristics
+   - Ranking + Judge Selection System (Seasons 28+): Judges have decisive power at critical moments
+
+3. Show Nature Judgment:
+   - The show achieves a good balance between professionalism and entertainment
+
+6. Recommendations & Improvement Directions
+----------------------------------------
+1. Competition System Optimization Recommendations:
+   - For seasons emphasizing professionalism: Increase judge weight to 60% and reduce fan weight to 40%
+   - For seasons emphasizing entertainment: Reduce judge weight to 40% and increase fan weight to 60%
+   - Introduce an alternating 'Professional Week' and 'Popularity Week' model to balance both values
+
+2. Transparency Improvement:
+   - Publish weekly judge and fan reversal rates
+   - Explain whether judge or fan factors dominated the elimination process
+   - Establish a 'safety net' mechanism for contestants with high technical scores
+
+3. Contestant Strategy Recommendations:
+   - Technical contestants: Focus on improving judge scores and leverage strengths in Professional Weeks
+   - Popular contestants: Strengthen audience interaction and secure support in Popularity Weeks
+   - All-round contestants: Balance technical improvement and audience appeal
+
+================================================================================

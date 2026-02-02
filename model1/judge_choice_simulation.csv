@@ -1,0 +1,53 @@
+season,week,original_eliminated,simulated_eliminated,match,actual_bottom_two,simulated_bottom_two,judge_score_original,judge_score_simulated
+28,2,Ray Lewis,James Van Der Beek,False,"['Kate Flannery', 'James Van Der Beek', 'Sean Spicer']","['James Van Der Beek', 'Kate Flannery']",15.0,20.0
+28,4,Lamar Odom,James Van Der Beek,False,"['Kate Flannery', 'James Van Der Beek', 'Sean Spicer']","['James Van Der Beek', 'Kel Mitchell']",20.0,28.0
+28,6,Sailor Brinkley-Cook,Kate Flannery,False,"['Kate Flannery', 'James Van Der Beek', 'Sean Spicer']","['James Van Der Beek', 'Kate Flannery']",27.0,27.0
+28,7,Karamo Brown,James Van Der Beek,False,"['Kate Flannery', 'James Van Der Beek', 'Sean Spicer']","['Lauren Alaina', 'James Van Der Beek']",24.5,27.0
+28,8,Kate Flannery,Kate Flannery,True,"['Kate Flannery', 'James Van Der Beek', 'Sean Spicer']","['Kate Flannery', 'James Van Der Beek']",25.9998,25.9998
+28,9,Sean Spicer,James Van Der Beek,False,"['James Van Der Beek', 'Sean Spicer']","['James Van Der Beek', 'Kel Mitchell']",25.0,36.0
+29,2,Charles Oakley,Jesse Metcalfe,False,"['Chrishell Stause', 'Skai Jackson', 'Johnny Weir', 'AJ McLean']","['Justina Machado', 'Jesse Metcalfe']",15.0,20.0
+29,3,Carole Baskin,Chrishell Stause,False,"['Chrishell Stause', 'Skai Jackson', 'Johnny Weir', 'AJ McLean']","['Johnny Weir', 'Chrishell Stause']",12.0,22.0
+29,4,Anne Heche,Justina Machado,False,"['Chrishell Stause', 'Skai Jackson', 'Johnny Weir', 'AJ McLean']","['Justina Machado', 'Skai Jackson']",21.0,24.0
+29,5,Jesse Metcalfe,Skai Jackson,False,"['Chrishell Stause', 'Skai Jackson', 'Johnny Weir', 'AJ McLean']","['Skai Jackson', 'Johnny Weir']",19.0,24.0
+29,6,Veron Davis,Chrishell Stause,False,"['Chrishell Stause', 'Skai Jackson', 'Johnny Weir', 'AJ McLean']","['Chrishell Stause', 'Justina Machado']",21.0,24.0
+29,7,Monica Aldama,Skai Jackson,False,"['Chrishell Stause', 'Skai Jackson', 'Johnny Weir', 'AJ McLean']","['Nev Schulman', 'Skai Jackson']",22.0,27.0
+29,8,Chrishell Stause,Justina Machado,False,"['Chrishell Stause', 'Skai Jackson', 'Johnny Weir', 'AJ McLean']","['Justina Machado', 'Johnny Weir']",27.0,28.9998
+29,9,AJ McLean,Skai Jackson,False,"['Skai Jackson', 'Johnny Weir', 'AJ McLean']","['Skai Jackson', 'Johnny Weir']",24.9998,28.9998
+29,10,Skai Jackson,Johnny Weir,False,"['Skai Jackson', 'Johnny Weir']","['Skai Jackson', 'Johnny Weir']",28.5,28.5
+30,2,Martin Kove,Melora Hardin,False,"['Melora Hardin', 'Mike ""The Miz"" Mizanin', 'Suni Lee', 'Jimmie Allen', 'Olivia Jade']","['Suni Lee', 'Melora Hardin']",15.0,27.0
+30,3,Christine Chiu,"Mike ""The Miz"" Mizanin",False,"['Melora Hardin', 'Mike ""The Miz"" Mizanin', 'Suni Lee', 'Jimmie Allen', 'Olivia Jade']","['Mike ""The Miz"" Mizanin', 'Melora Hardin']",21.0,22.0
+30,4,Brian Austin Green,Suni Lee,False,"['Melora Hardin', 'Mike ""The Miz"" Mizanin', 'Suni Lee', 'Jimmie Allen', 'Olivia Jade']","['Suni Lee', 'Melora Hardin']",26.0,34.0
+30,5,Melanie C,Melora Hardin,False,"['Melora Hardin', 'Mike ""The Miz"" Mizanin', 'Suni Lee', 'Jimmie Allen', 'Olivia Jade']","['Suni Lee', 'Melora Hardin']",36.0,36.0
+30,6,Kenya Moore,Suni Lee,False,"['Melora Hardin', 'Mike ""The Miz"" Mizanin', 'Suni Lee', 'Jimmie Allen', 'Olivia Jade']","['Suni Lee', 'Iman Shumpert']",32.0,36.0
+30,7,"Mike ""The Miz"" Mizanin",Melora Hardin,False,"['Melora Hardin', 'Mike ""The Miz"" Mizanin', 'Suni Lee', 'Jimmie Allen', 'Olivia Jade']","['Olivia Jade', 'Melora Hardin']",32.0,38.0
+30,8,Jimmie Allen,Melora Hardin,False,"['Melora Hardin', 'Suni Lee', 'Jimmie Allen', 'Olivia Jade']","['Suni Lee', 'Melora Hardin']",32.0,42.0
+30,9,Melora Hardin,Melora Hardin,True,"['Melora Hardin', 'Suni Lee']","['Melora Hardin', 'Suni Lee']",36.0,36.0
+31,1,Jason Lewis,Selma Blair,False,"['Trevor Donovan', 'Daniel Durant', 'Jordin Sparks', ""Heidi D'Amelio"", 'Vinny Guadagnino']","['Wayne Brady', 'Selma Blair']",18.0,28.0
+31,2,Teresa Giudice,Trevor Donovan,False,"['Trevor Donovan', 'Daniel Durant', 'Jordin Sparks', ""Heidi D'Amelio"", 'Vinny Guadagnino']","['Trevor Donovan', 'Wayne Brady']",23.0,30.0
+31,3,Cheryl Ladd,Daniel Durant,False,"['Trevor Donovan', 'Daniel Durant', 'Jordin Sparks', ""Heidi D'Amelio"", 'Vinny Guadagnino']","['Daniel Durant', 'Wayne Brady']",24.0,31.0
+31,4,Sam Champion,Selma Blair,False,"['Trevor Donovan', 'Daniel Durant', 'Jordin Sparks', ""Heidi D'Amelio"", 'Vinny Guadagnino']","['Selma Blair', 'Wayne Brady']",25.0,32.0
+31,5,Selma Blair,Selma Blair,True,"['Trevor Donovan', 'Daniel Durant', 'Jordin Sparks', ""Heidi D'Amelio"", 'Vinny Guadagnino']","['Wayne Brady', 'Selma Blair']",40.0,40.0
+31,6,Jessie James Decker,Trevor Donovan,False,"['Trevor Donovan', 'Daniel Durant', 'Jordin Sparks', ""Heidi D'Amelio"", 'Vinny Guadagnino']","[""Charli D'Amelio"", 'Trevor Donovan']",32.0,34.0
+31,7,Jordin Sparks,Wayne Brady,False,"['Trevor Donovan', 'Daniel Durant', 'Jordin Sparks', ""Heidi D'Amelio"", 'Vinny Guadagnino']","['Wayne Brady', 'Trevor Donovan']",34.5,38.0
+31,8,Heidi D'Amelio,Trevor Donovan,False,"['Trevor Donovan', 'Daniel Durant', ""Heidi D'Amelio"", 'Vinny Guadagnino']","['Trevor Donovan', 'Wayne Brady']",35.0,39.0
+31,9,Trevor Donovan,Wayne Brady,False,"['Trevor Donovan', 'Daniel Durant']","['Wayne Brady', ""Charli D'Amelio""]",32.5,36.5
+32,1,Matt Walsh,Mira Sorvino,False,"['Barry Williams', 'Lele Pons', 'Harry Jowsey']","['Xochitl Gomez', 'Mira Sorvino']",12.0,17.0
+32,2,Jamie Lynn Spears,Mira Sorvino,False,"['Barry Williams', 'Lele Pons', 'Harry Jowsey']","['Mira Sorvino', 'Xochitl Gomez']",16.0,18.0
+32,3,Tyson Beckford,Mira Sorvino,False,"['Barry Williams', 'Lele Pons', 'Harry Jowsey']","['Mira Sorvino', 'Xochitl Gomez']",20.0,26.0
+32,4,Adrian Peterson,Mira Sorvino,False,"['Barry Williams', 'Lele Pons', 'Harry Jowsey']","['Mira Sorvino', 'Xochitl Gomez']",21.0,21.0
+32,5,Mira Sorvino,Barry Williams,False,"['Barry Williams', 'Lele Pons', 'Harry Jowsey']","['Barry Williams', 'Xochitl Gomez']",22.0,24.0
+32,6,Mauricio Umansky,Jason Mraz,False,"['Barry Williams', 'Lele Pons', 'Harry Jowsey']","['Jason Mraz', 'Xochitl Gomez']",33.0,39.0
+32,7,Lele Pons,Lele Pons,True,"['Barry Williams', 'Lele Pons', 'Harry Jowsey']","['Lele Pons', 'Xochitl Gomez']",36.5,36.5
+32,8,Barry Williams,Alyson Hannigan,False,"['Barry Williams', 'Harry Jowsey']","['Alyson Hannigan', 'Xochitl Gomez']",35.0,36.0
+33,2,Tori Spelling,Dwight Howard ,False,"['Dwight Howard\xa0', 'Phaedra Parks', 'Jenn Tran']","['Dwight Howard\xa0', 'Chandler Kinney']",19.0,22.0
+33,3,Eric Roberts,Stephen Nedoroscik,False,"['Dwight Howard\xa0', 'Phaedra Parks', 'Jenn Tran']","['Stephen Nedoroscik', 'Chandler Kinney']",23.0,31.0
+33,4,Brooks Nader,Chandler Kinney,False,"['Dwight Howard\xa0', 'Phaedra Parks', 'Jenn Tran']","['Chandler Kinney', 'Danny Amendola']",32.0,32.0
+33,5,Phaedra Parks,Ilona Maher,False,"['Dwight Howard\xa0', 'Phaedra Parks', 'Jenn Tran']","['Ilona Maher', 'Chandler Kinney']",24.0,26.0
+33,6,Jenn Tran,Jenn Tran,True,"['Dwight Howard\xa0', 'Jenn Tran']","['Dwight Howard\xa0', 'Jenn Tran']",31.0,31.0
+34,2,Corey Feldman,Elaine Hendrix,False,"['Danielle Fishel', 'Andy Richter', 'Whitney Leavitt']","['Elaine Hendrix', 'Jordan Chiles']",15.0,21.0
+34,3,Lauren Jauregui,Danielle Fishel,False,"['Danielle Fishel', 'Andy Richter', 'Whitney Leavitt']","['Danielle Fishel', 'Jordan Chiles']",18.0,21.0
+34,4,Hilaria Baldwin,Elaine Hendrix,False,"['Danielle Fishel', 'Andy Richter', 'Whitney Leavitt']","['Jordan Chiles', 'Elaine Hendrix']",23.0,24.0
+34,6,Scott Hoying,Danielle Fishel,False,"['Danielle Fishel', 'Andy Richter', 'Whitney Leavitt']","['Danielle Fishel', 'Jordan Chiles']",28.0,36.0
+34,7,Jen Affleck,Jordan Chiles,False,"['Danielle Fishel', 'Andy Richter', 'Whitney Leavitt']","['Jordan Chiles', 'Alix Earle']",34.0,38.0
+34,8,Danielle Fishel,Jordan Chiles,False,"['Danielle Fishel', 'Andy Richter', 'Whitney Leavitt']","['Whitney Leavitt', 'Jordan Chiles']",37.0,39.0
+34,9,Andy Richter,Jordan Chiles,False,"['Andy Richter', 'Whitney Leavitt']","['Jordan Chiles', 'Robert Irwin']",29.0,39.0

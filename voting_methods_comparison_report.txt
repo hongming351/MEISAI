@@ -1,158 +1,247 @@
 ================================================================================
-《与星共舞》粉丝投票预测模型 - 投票方法对比分析报告
-基于三种投票阶段：Rank-Regular, Percentage-Regular, Rank-Bottom-Two
+Dancing with the Stars Fan Voting Prediction Model - Voting Methods Comparison Report
+Based on three voting phases: Rank-Regular, Percentage-Regular, Rank-Bottom-Two
 ================================================================================
-生成时间: 2026-01-31 19:36:18
+Generated: 2026-02-01 19:21:02
 
-1. 总体统计
+1. Overall Statistics
 ----------------------------------------
-分析赛季数: 34
-总预测记录数: 2777
-总选手数: 408
-平均粉丝投票比例: 0.1206
-平均评委分数: 25.98
+Number of seasons analyzed: 34
+Total prediction records: 2777
+Total contestants: 408
+Average fan vote proportion: 0.1206
+Average judge score: 25.98
 
-投票阶段分布:
-  percentage_regular: 1997 条记录 (71.9%)
-  rank_bottom_two: 702 条记录 (25.3%)
-  rank_regular: 78 条记录 (2.8%)
+Voting phase distribution:
+  percentage_regular: 1997 records (71.9%)
+  rank_bottom_two: 702 records (25.3%)
+  rank_regular: 78 records (2.8%)
 
-2. 两种投票方法对比分析
+2. Comparison of Two Voting Methods
 ----------------------------------------
-排名法平均淘汰预测准确率: 0.1352
-百分比法平均淘汰预测准确率: 0.2635
-准确率差异: 0.1284 (百分比法更高)
+Ranking method average elimination prediction accuracy: 0.1453
+Percentage method average elimination prediction accuracy: 0.2497
+Accuracy difference: 0.1044 (Percentage method higher)
 
-按投票阶段准确率分析:
-  rank_regular: 排名法=0.250, 百分比法=0.225, 差异=-0.025
-  percentage_regular: 排名法=0.142, 百分比法=0.259, 差异=0.117
-  rank_bottom_two: 排名法=0.077, 百分比法=0.290, 差异=0.213
+Accuracy analysis by voting phase:
+  rank_regular: Ranking method=0.188, Percentage method=0.388, Difference=0.200
+  percentage_regular: Ranking method=0.153, Percentage method=0.240, Difference=0.087
+  rank_bottom_two: Ranking method=0.106, Percentage method=0.246, Difference=0.140
 
-两种方法预测结果不同的平均比例: 0.8725
+Average proportion of different predictions between two methods: 0.8430
 
-3. 粉丝投票权重分析
+3. Fan Voting Weight Analysis
 ----------------------------------------
-排名法平均粉丝投票权重: 0.500
-排名法评委-粉丝排名相关性: -0.003
-百分比法平均粉丝投票权重: 0.600
-百分比法评委-粉丝投票相关性: 0.682
+Ranking method average fan voting weight: 0.500
+Ranking method judge-fan ranking correlation: 0.041
+Percentage method average fan voting weight: 0.600
+Percentage method judge-fan voting correlation: 0.681
 
-4. 预测不确定性分析
+4. Prediction Uncertainty Analysis
 ----------------------------------------
-变异系数统计:
-  均值: 0.047873 (4.79%)
-  标准差: 0.084807
-  最小值: 0.000000
-  25%分位数: 0.017386
-  中位数: 0.035646
-  75%分位数: 0.048237
-  最大值: 2.226165
+Coefficient of variation statistics:
+  Mean: 0.047657 (4.77%)
+  Standard deviation: 0.086055
+  Minimum: 0.000000
+  25th percentile: 0.017511
+  Median: 0.035497
+  75th percentile: 0.047897
+  Maximum: 1.320851
 
-按投票方法的不确定性:
-  percentage: 平均变异系数=0.031381, 平均标准差=0.003910
-  rank: 平均变异系数=0.090095, 平均标准差=0.007447
+Uncertainty by voting method:
+  percentage: Average CV=0.031389, Average std=0.003922
+  rank: Average CV=0.089307, Average std=0.007448
 
-5. 争议案例两种方法对比
+5. Controversial Cases Two-Method Comparison
 ----------------------------------------
-Jerry Rice (赛季2):
-  平均评委分数: 22.52
-  排名法平均粉丝投票: 0.1766 (平均排名: 5.6)
-  百分比法平均粉丝投票: 0.1771 (平均排名: 4.0)
-  百分比法预测的粉丝支持度更高，差异: 0.0006
-  排名法表现更好的周数: 2
-  百分比法表现更好的周数: 4
+Jerry Rice (Season 2):
+  Average judge score: 22.52
+  Ranking method average fan vote: 0.1783 (Average position: 4.9)
+  Percentage method average fan vote: 0.1746 (Average position: 4.8)
+  Ranking method predicts higher fan support, difference: 0.0037
+  Weeks where ranking method performs better: 3
+  Weeks where percentage method performs better: 2
 
-Billy Ray Cyrus (赛季4):
-  平均评委分数: 19.00
-  排名法平均粉丝投票: 0.1266 (平均排名: 7.0)
-  百分比法平均粉丝投票: 0.1237 (平均排名: 7.1)
-  排名法预测的粉丝支持度更高，差异: 0.0029
-  排名法表现更好的周数: 4
-  百分比法表现更好的周数: 2
+Billy Ray Cyrus (Season 4):
+  Average judge score: 19.00
+  Ranking method average fan vote: 0.1280 (Average position: 5.9)
+  Percentage method average fan vote: 0.1248 (Average position: 6.5)
+  Ranking method predicts higher fan support, difference: 0.0032
+  Weeks where ranking method performs better: 3
+  Weeks where percentage method performs better: 3
 
-Bristol Palin (赛季11):
-  平均评委分数: 22.92
-  排名法平均粉丝投票: 0.1600 (平均排名: 5.6)
-  百分比法平均粉丝投票: 0.1563 (平均排名: 5.2)
-  排名法预测的粉丝支持度更高，差异: 0.0038
-  排名法表现更好的周数: 3
-  百分比法表现更好的周数: 5
+Bristol Palin (Season 11):
+  Average judge score: 22.92
+  Ranking method average fan vote: 0.1610 (Average position: 4.7)
+  Percentage method average fan vote: 0.1559 (Average position: 5.9)
+  Ranking method predicts higher fan support, difference: 0.0050
+  Weeks where ranking method performs better: 4
+  Weeks where percentage method performs better: 3
 
-Bobby Bones (赛季27):
-  平均评委分数: 22.39
-  排名法平均粉丝投票: 0.1232 (平均排名: 5.7)
-  百分比法平均粉丝投票: 0.1224 (平均排名: 5.7)
-  排名法预测的粉丝支持度更高，差异: 0.0007
-  排名法表现更好的周数: 5
-  百分比法表现更好的周数: 3
+Bobby Bones (Season 27):
+  Average judge score: 22.39
+  Ranking method average fan vote: 0.1234 (Average position: 6.3)
+  Percentage method average fan vote: 0.1219 (Average position: 6.3)
+  Ranking method predicts higher fan support, difference: 0.0015
+  Weeks where ranking method performs better: 3
+  Weeks where percentage method performs better: 5
 
-6. 评委选择淘汰机制模拟（Rank-Bottom-Two阶段）
+6. Judge Choice Elimination Mechanism Simulation (Rank-Bottom-Two Phase)
 ----------------------------------------
-模拟匹配率: 0.0962
-淘汰结果改变的周数: 47/52
-改变比例: 0.9038
+Simulation match rate: 0.0962
+Weeks with changed elimination results: 47/52
+Change proportion: 0.9038
 
-7. 统计相关性分析
+7. Counterfactual Analysis: What If Using a Different Voting Method?
 ----------------------------------------
-评委分数与粉丝投票相关性: 0.2880
-不同投票阶段粉丝投票差异显著性: F=54.4299, p=0.000000
+Total weeks analyzed: 284
+Weeks with reversal events (different elimination predictions): 158 (55.6%)
 
-8. 模型一致性度量
+Core Counterfactual Metrics:
+  Average Judge Reversal Rate: 0.5106
+  Average Fan Reversal Rate: 0.1972
+  Average Power Struggle Index: 34.3239
+  Average Reversal Intensity: 0.0022
+
+Counterfactual Metrics by Voting Phase:
+  rank_regular:
+    Reversal Rate: 0.3333
+    Judge Reversal Rate: 0.3333
+    Fan Reversal Rate: 0.0833
+  percentage_regular:
+    Reversal Rate: 0.5634
+    Judge Reversal Rate: 0.5070
+    Fan Reversal Rate: 0.1925
+  rank_bottom_two:
+    Reversal Rate: 0.5763
+    Judge Reversal Rate: 0.5593
+    Fan Reversal Rate: 0.2373
+
+8. Elimination Result Consistency Validation
 ----------------------------------------
-淘汰预测准确率: 0.9298
-淘汰预测F1分数: 0.7288
-每周淘汰匹配度: 0.8444
-完美匹配周数: 221/335
+Total weeks analyzed: 284
+Reversal event rate: 0.5563 (55.6%)
+Exact match weeks: 32 (11.3%)
+Partial match weeks: 109 (38.4%)
+Controversial weeks (different predictions): 158
 
-9. 确定性度量总结
+Controversial Contestants Analysis:
+  Top 5 controversial contestants in Rank method:
+    Kirstie Alley: 4 weeks
+    Erin Andrews: 3 weeks
+    Marie Osmond: 3 weeks
+    Romeo: 3 weeks
+    Ginger Zee: 2 weeks
+  Top 5 controversial contestants in Percentage method:
+    Vinny Guadagnino: 5 weeks
+    Harry Jowsey: 4 weeks
+    Gladys Knight: 3 weeks
+    Michael Irvin: 3 weeks
+    Kirstie Alley: 3 weeks
+  Average reversal intensity in controversial weeks: 0.0039
+
+9. Voting Method Bias Analysis: Which Favors Fan Votes More?
 ----------------------------------------
-平均变异系数 (CV): 0.047873 (4.79%)
-平均标准差: 0.004903
-平均置信区间宽度: 0.016565
+Overall Judge Reversal Rate: 0.5106
+Overall Fan Reversal Rate: 0.1972
+Overall Power Struggle Index: 34.3239
 
-不确定性分布:
-  • 低不确定性 (CV < 0.1): 2591 条记录
-  • 中等不确定性 (0.1 ≤ CV < 0.25): 115 条记录
-  • 高不确定性 (CV ≥ 0.25): 71 条记录
+Bias Analysis by Voting Phase:
+  rank_regular:
+    Judge Reversal Rate: 0.3333
+    Fan Reversal Rate: 0.0833
+    Bias Direction: 偏向评委
+    Bias Strength: 0.2500
+  percentage_regular:
+    Judge Reversal Rate: 0.5070
+    Fan Reversal Rate: 0.1925
+    Bias Direction: 偏向评委
+    Bias Strength: 0.3146
+  rank_bottom_two:
+    Judge Reversal Rate: 0.5593
+    Fan Reversal Rate: 0.2373
+    Bias Direction: 偏向评委
+    Bias Strength: 0.3220
 
-最具确定性的选手 (前5名):
+Comprehensive Bias Conclusion:
+  Average Fan Reversal Rate - Rank Method: 0.1603
+  Average Fan Reversal Rate - Percentage Method: 0.1925
+  Overall Conclusion: 百分比制更偏向粉丝投票
+  Bias Strength: 0.0322
+
+Interpretation: The percentage method shows a higher fan reversal rate,
+indicating it gives more influence to fan votes in determining elimination outcomes.
+This suggests the percentage method is more biased toward fan preferences.
+
+10. Statistical Correlation Analysis
+----------------------------------------
+Correlation between judge scores and fan voting: 0.2880
+Significance of fan voting differences across voting phases: F=54.4694, p=0.000000
+
+11. Model Consistency Metrics
+----------------------------------------
+Elimination prediction accuracy: 0.9291
+Elimination prediction F1 score: 0.7260
+Weekly elimination match rate: 0.8427
+Perfect match weeks: 221/335
+
+12. Certainty Metrics Summary
+----------------------------------------
+Average coefficient of variation (CV): 0.047657 (4.77%)
+Average standard deviation: 0.004913
+Average confidence interval width: 0.016676
+
+Uncertainty distribution:
+  • Low uncertainty (CV < 0.1): 2603 records
+  • Medium uncertainty (0.1 ≤ CV < 0.25): 107 records
+  • High uncertainty (CV ≥ 0.25): 67 records
+
+Most certain contestants (Top 5):
   Ashley Hamiliton: CV=0.000000
   Macy Gray: CV=0.000000
   Arike Ogunbowale: CV=0.000000
   Kareem Abdul-Jabbar: CV=0.000000
   Trista Sutter: CV=0.000000
 
-最不确定性的选手 (前5名):
-  Jimmie Allen: CV=0.168695
-  JoJo Siwa: CV=0.171433
-  Suni Lee: CV=0.175351
-  Amanda Kloots: CV=0.211722
-  Hilaria Baldwin: CV=0.649940
+Most uncertain contestants (Top 5):
+  Kenya Moore: CV=0.194555
+  Sailor Brinkley-Cook: CV=0.194621
+  Melora Hardin: CV=0.203509
+  Jen Affleck: CV=0.276323
+  Lele Pons: CV=0.286201
 
-不确定性最高的周: 第4周 (CV=0.071857)
-不确定性最低的周: 第11周 (CV=0.011573)
+Week with highest uncertainty: Week 4 (CV=0.069315)
+Week with lowest uncertainty: Week 11 (CV=0.012181)
 
-10. 结论与建议
+13. Conclusions and Recommendations
 ----------------------------------------
-主要发现:
-  1. 百分比法给予粉丝投票更高权重（60% vs 排名法的50%）
-  2. 百分比法在大多数赛季中淘汰预测准确率更高
-  3. 三种投票阶段的预测结果存在差异
-  4. Rank-Bottom-Two阶段的评委选择机制会影响淘汰结果
-  5. 排名法的不确定性通常更高（平均变异系数更高）
-  6. 争议案例的预测存在较高不确定性，需要更多数据支持
+Main Findings:
+  1. Percentage method gives higher weight to fan voting (60% vs 50% in ranking method)
+  2. Percentage method has higher elimination prediction accuracy in most seasons
+  3. Prediction results differ across three voting phases
+  4. Judge choice mechanism in Rank-Bottom-Two phase affects elimination results
+  5. Counterfactual analysis shows percentage method is MORE biased toward fan votes
+  6. Percentage method gives fans more power to reverse judge decisions
+  7. Ranking method generally has higher uncertainty (higher average coefficient of variation)
+  8. Controversial case predictions have higher uncertainty, requiring more data support
 
-确定性度量总结:
-  • 模型提供了完整的确定性度量：标准差、置信区间、变异系数
-  • 变异系数量化了不同参赛者/每周的估计波动
-  • 置信区间图表直观展示了估计值的确定性范围
-  • 不确定性等级分类有助于识别高风险预测
+Counterfactual Analysis Summary:
+  • Reveals what would happen if a different voting method were used
+  • Quantifies reversal rates between judge and fan preferences
+  • Identifies which method gives more power to fan votes
+  • Measures intensity of disagreements between voting methods
 
-新投票系统建议:
-  采用'动态混合系统':
-  • 第1-4周: 评委60% + 粉丝40% (强调技术基础)
-  • 第5-8周: 评委50% + 粉丝50% (平衡阶段)
-  • 第9周及以后: 评委40% + 粉丝60% (强调观众参与)
-  • 结合不确定性分析，为高风险淘汰决策提供额外评审环节
+Certainty Metrics Summary:
+  • Model provides complete certainty metrics: standard deviation, confidence intervals, coefficient of variation
+  • Coefficient of variation quantifies estimate volatility across different contestants/weeks
+  • Confidence interval charts visually show certainty ranges of estimates
+  • Uncertainty level classification helps identify high-risk predictions
+
+New Voting System Recommendations:
+  Adopt 'Dynamic Hybrid System':
+  • Weeks 1-4: Judge 60% + Fan 40% (emphasize technical foundation)
+  • Weeks 5-8: Judge 50% + Fan 50% (balanced phase)
+  • Week 9 onwards: Judge 40% + Fan 60% (emphasize audience participation)
+  • Incorporate uncertainty analysis, provide additional review for high-risk elimination decisions
 
 ================================================================================

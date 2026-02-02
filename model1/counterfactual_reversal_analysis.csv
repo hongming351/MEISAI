@@ -1,0 +1,287 @@
+season,week,voting_phase,method,total_contestants,judge_reversal,fan_reversal,judge_reversal_strength,fan_reversal_strength,judge_bottom_contestants,fan_bottom_contestants,eliminated_contestants,judge_reversal_numeric,fan_reversal_numeric,power_struggle_index
+1,2,rank_regular,rank,6,True,True,0.6666666666666666,1.0,Evander Holyfield,"John O'Hurley, Kelly Monaco, Evander Holyfield, Rachel Hunter, Joey McIntyre, Trista Sutter",Trista Sutter,1,1,0
+1,3,rank_regular,rank,5,False,True,0.0,1.0,Evander Holyfield,"John O'Hurley, Kelly Monaco, Evander Holyfield, Rachel Hunter, Joey McIntyre",Evander Holyfield,0,1,-1
+1,4,rank_regular,rank,4,True,True,0.25,1.0,Joey McIntyre,"John O'Hurley, Kelly Monaco, Rachel Hunter, Joey McIntyre",Rachel Hunter,1,1,0
+1,5,rank_regular,rank,3,False,True,0.0,1.0,Joey McIntyre,"John O'Hurley, Kelly Monaco, Joey McIntyre",Joey McIntyre,0,1,-1
+1,6,rank_regular,rank,2,False,False,0.0,0.0,John O'Hurley,"John O'Hurley, Kelly Monaco","John O'Hurley, Kelly Monaco",0,0,0
+2,1,rank_regular,rank,10,True,True,0.4,0.4,Master P,Lisa Rinna,Kenny Mayne,1,1,0
+2,2,rank_regular,rank,9,True,False,0.5555555555555556,0.0,Master P,Tatum O'Neal,Tatum O'Neal,1,0,1
+2,3,rank_regular,rank,8,True,False,0.875,0.0,Master P,Giselle Fernandez,Giselle Fernandez,1,0,1
+2,4,rank_regular,rank,7,False,True,0.0,1.0,Master P,"Tia Carrere, George Hamilton, Lisa Rinna, Stacy Keibler, Jerry Rice, Master P, Drew Lachey",Master P,0,1,-1
+2,5,rank_regular,rank,6,False,True,0.0,1.0,Tia Carrere,"Tia Carrere, George Hamilton, Lisa Rinna, Stacy Keibler, Jerry Rice, Drew Lachey",Tia Carrere,0,1,-1
+2,6,rank_regular,rank,5,True,True,0.4,1.0,"George Hamilton, Jerry Rice","George Hamilton, Lisa Rinna, Stacy Keibler, Jerry Rice, Drew Lachey",George Hamilton,1,1,0
+2,7,rank_regular,rank,4,True,True,0.5,1.0,Jerry Rice,"Lisa Rinna, Stacy Keibler, Jerry Rice, Drew Lachey",Lisa Rinna,1,1,0
+2,8,rank_regular,rank,3,False,False,0.0,0.0,Jerry Rice,"Stacy Keibler, Jerry Rice, Drew Lachey","Stacy Keibler, Jerry Rice, Drew Lachey",0,0,0
+3,1,percentage_regular,percentage,11,False,False,0.0,0.0,Tucker Carlson,Tucker Carlson,Tucker Carlson,0,0,0
+3,2,percentage_regular,percentage,10,True,True,0.1,0.1,Jerry Springer,Jerry Springer,Shanna Moakler,1,1,0
+3,3,percentage_regular,percentage,9,True,True,0.3333333333333333,0.2222222222222222,Emmitt Smith,Jerry Springer,Harry Hamlin,1,1,0
+3,4,percentage_regular,percentage,8,True,True,0.375,0.5,Sara Evans,Monique Coleman,Vivica A. Fox,1,1,0
+3,5,percentage_regular,percentage,7,True,False,0.2857142857142857,0.0,"Sara Evans, Jerry Springer",Sara Evans,"Willa Ford, Sara Evans",1,0,1
+3,7,percentage_regular,percentage,5,False,False,0.0,0.0,Jerry Springer,Jerry Springer,Jerry Springer,0,0,0
+3,8,percentage_regular,percentage,4,False,False,0.0,0.0,Monique Coleman,Monique Coleman,Monique Coleman,0,0,0
+3,9,percentage_regular,percentage,3,True,True,0.6666666666666666,0.3333333333333333,"Joey Lawrence, Mario Lopez, Emmitt Smith",Emmitt Smith,Joey Lawrence,1,1,0
+3,10,percentage_regular,percentage,2,False,False,0.0,0.0,"Mario Lopez, Emmitt Smith",Emmitt Smith,"Mario Lopez, Emmitt Smith",0,0,0
+4,2,percentage_regular,percentage,11,True,True,0.18181818181818182,0.36363636363636365,Clyde Drexler,Billy Ray Cyrus,Paulina Porizkova,1,1,0
+4,3,percentage_regular,percentage,10,True,True,0.1,0.1,Clyde Drexler,Clyde Drexler,Shandi Finnessey,1,1,0
+4,4,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,Clyde Drexler,Clyde Drexler,Leeza Gibbons,1,1,0
+4,5,percentage_regular,percentage,8,False,False,0.0,0.0,Clyde Drexler,Clyde Drexler,Clyde Drexler,0,0,0
+4,6,percentage_regular,percentage,7,True,True,0.14285714285714285,0.14285714285714285,John Ratzenberger,John Ratzenberger,Heather Mills,1,1,0
+4,7,percentage_regular,percentage,6,True,True,0.16666666666666666,0.16666666666666666,Billy Ray Cyrus,Billy Ray Cyrus,John Ratzenberger,1,1,0
+4,8,percentage_regular,percentage,5,False,True,0.0,0.4,Billy Ray Cyrus,Ian Ziering,Billy Ray Cyrus,0,1,-1
+4,9,percentage_regular,percentage,4,False,True,0.0,0.75,Ian Ziering,Joey Fatone,Ian Ziering,0,1,-1
+4,10,percentage_regular,percentage,3,False,False,0.0,0.0,Laila Ali,Apolo Anton Ohno,"Laila Ali, Apolo Anton Ohno, Joey Fatone",0,0,0
+5,1,percentage_regular,percentage,12,False,True,0.0,0.3333333333333333,Josie Maran,Mark Cuban,Josie Maran,0,1,-1
+5,2,percentage_regular,percentage,11,True,True,0.09090909090909091,0.09090909090909091,Wayne Newton,Wayne Newton,Albert Reed,1,1,0
+5,3,percentage_regular,percentage,10,False,False,0.0,0.0,Wayne Newton,Wayne Newton,Wayne Newton,0,0,0
+5,4,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,Mark Cuban,Mark Cuban,Floyd Mayweather Jr. ,1,1,0
+5,5,percentage_regular,percentage,8,True,True,0.125,0.25,"Marie Osmond, Mark Cuban",Marie Osmond,Mark Cuban,1,1,0
+5,6,percentage_regular,percentage,7,True,True,0.42857142857142855,0.2857142857142857,Jane Seymour,Marie Osmond,Sabrina Bryan,1,1,0
+5,7,percentage_regular,percentage,6,False,True,0.0,0.8333333333333334,Jane Seymour,Jennie Garth,Jane Seymour,0,1,-1
+5,8,percentage_regular,percentage,5,True,True,0.6,0.4,Marie Osmond,Jennie Garth,Cameron Mathison,1,1,0
+5,9,percentage_regular,percentage,4,True,True,0.25,0.25,Marie Osmond,Marie Osmond,Jennie Garth,1,1,0
+5,10,percentage_regular,percentage,3,False,False,0.0,0.0,Marie Osmond,Helio Castroneves,"Helio Castroneves, Mel B, Marie Osmond",0,0,0
+6,2,percentage_regular,percentage,12,False,True,0.0,0.16666666666666666,Monica Seles,Steve Guttenberg,"Monica Seles, Penn Jillette",0,1,-1
+6,3,percentage_regular,percentage,10,True,True,0.3,0.2,Marissa Jaret Winokur,Mario,Steve Guttenberg,1,1,0
+6,4,percentage_regular,percentage,9,False,False,0.0,0.0,Adam Carolla,Adam Carolla,Adam Carolla,0,0,0
+6,5,percentage_regular,percentage,8,False,True,0.0,0.625,Priscilla Presley,Marissa Jaret Winokur,Priscilla Presley,0,1,-1
+6,6,percentage_regular,percentage,7,False,True,0.0,0.42857142857142855,Marlee Matlin,Shannon Elizabeth,Marlee Matlin,0,1,-1
+6,7,percentage_regular,percentage,6,True,False,0.5,0.0,Cristian de la Fuente,Shannon Elizabeth,Shannon Elizabeth,1,0,1
+6,8,percentage_regular,percentage,5,True,False,0.8,0.0,Marissa Jaret Winokur,Mario,Mario,1,0,1
+6,9,percentage_regular,percentage,4,False,False,0.0,0.0,Marissa Jaret Winokur,Marissa Jaret Winokur,Marissa Jaret Winokur,0,0,0
+6,10,percentage_regular,percentage,3,False,False,0.0,0.0,Cristian de la Fuente,Cristian de la Fuente,"Cristian de la Fuente, Jason Taylor, Kristi Yamaguchi",0,0,0
+7,1,percentage_regular,percentage,13,False,True,0.0,0.15384615384615385,Jeffrey Ross,Cloris Leachman,"Ted McGinley, Jeffrey Ross",0,1,-1
+7,2,percentage_regular,percentage,11,True,True,0.18181818181818182,0.18181818181818182,Cloris Leachman,Rocco DiSpirito,"Misty May-Treanor, Kim Kardashian",1,1,0
+7,4,percentage_regular,percentage,9,False,True,0.0,0.3333333333333333,Rocco DiSpirito,Toni Braxton,Rocco DiSpirito,0,1,-1
+7,5,percentage_regular,percentage,8,True,False,0.5,0.0,"Cloris Leachman, Lance Bass",Toni Braxton,Toni Braxton,1,0,1
+7,6,percentage_regular,percentage,7,False,False,0.0,0.0,Cloris Leachman,Cloris Leachman,Cloris Leachman,0,0,0
+7,7,percentage_regular,percentage,6,True,True,0.3333333333333333,0.3333333333333333,Warren Sapp,Cody Linley,Susan Lucci,1,1,0
+7,8,percentage_regular,percentage,5,True,False,0.8,0.0,"Cody Linley, Maurice Greene",Maurice Greene,Maurice Greene,1,0,1
+7,9,percentage_regular,percentage,4,False,False,0.0,0.0,Cody Linley,Cody Linley,Cody Linley,0,0,0
+7,10,percentage_regular,percentage,3,False,False,0.0,0.0,"Warren Sapp, Lance Bass",Warren Sapp,"Warren Sapp, Lance Bass, Brooke Burke",0,0,0
+8,2,percentage_regular,percentage,13,True,True,0.07692307692307693,0.07692307692307693,Steve-O,Steve-O,Belinda Carlisle,1,1,0
+8,3,percentage_regular,percentage,12,True,True,0.08333333333333333,0.08333333333333333,Steve Wozniak,Steve Wozniak,Denise Richards,1,1,0
+8,4,percentage_regular,percentage,11,False,False,0.0,0.0,Steve Wozniak,Steve Wozniak,"Steve Wozniak, Holly Madison",0,0,0
+8,5,percentage_regular,percentage,9,True,True,0.3333333333333333,0.3333333333333333,Steve-O,Ty Murray,David Alan Grier,1,1,0
+8,6,percentage_regular,percentage,8,False,True,0.0,0.25,Steve-O,Ty Murray,Steve-O,0,1,-1
+8,7,percentage_regular,percentage,7,False,False,0.0,0.0,Lawrence Taylor,Lawrence Taylor,Lawrence Taylor,0,0,0
+8,8,percentage_regular,percentage,6,True,True,0.16666666666666666,0.16666666666666666,Melissa Rycroft,Melissa Rycroft,Chuck Wicks,1,1,0
+8,9,percentage_regular,percentage,5,True,True,0.4,0.6,Ty Murray,Shawn Johnson,Lil' Kim,1,1,0
+8,10,percentage_regular,percentage,4,False,False,0.0,0.0,Ty Murray,Ty Murray,Ty Murray,0,0,0
+9,1,percentage_regular,percentage,16,False,True,0.0,0.25,"Ashley Hamiliton, Macy Gray",Tom DeLay,"Ashley Hamiliton, Macy Gray",0,1,-1
+9,2,percentage_regular,percentage,14,True,True,0.07142857142857142,0.07142857142857142,"Kathy Ireland, Tom DeLay",Tom DeLay,Kathy Ireland,1,1,0
+9,3,percentage_regular,percentage,13,True,True,0.07692307692307693,0.07692307692307693,Michael Irvin,Michael Irvin,"Debi Mazar, Tom DeLay",1,1,0
+9,4,percentage_regular,percentage,11,True,True,0.18181818181818182,0.18181818181818182,"Louie Vito, Michael Irvin",Louie Vito,Chuck Liddell,1,1,0
+9,5,percentage_regular,percentage,10,True,True,0.1,0.1,Michael Irvin,Michael Irvin,Natalie Coughlin,1,1,0
+9,6,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,Michael Irvin,Michael Irvin,"Melissa Joan Hart, Louie Vito",1,1,0
+9,7,percentage_regular,percentage,7,False,False,0.0,0.0,Mark Dacascos,Michael Irvin,"Mark Dacascos, Michael Irvin",0,0,0
+9,8,percentage_regular,percentage,5,True,False,0.4,0.0,"Aaron Carter, Donny Osmond",Aaron Carter,Aaron Carter,1,0,1
+9,9,percentage_regular,percentage,4,True,True,1.0,0.5,Donny Osmond,Kelly Osbourne,Joanna Krupa,1,1,0
+9,10,percentage_regular,percentage,3,False,False,0.0,0.0,Kelly Osbourne,Kelly Osbourne,"Mya, Donny Osmond, Kelly Osbourne",0,0,0
+10,2,percentage_regular,percentage,11,True,True,0.09090909090909091,0.09090909090909091,Buzz Aldrin,Buzz Aldrin,Shannen Doherty,1,1,0
+10,3,percentage_regular,percentage,10,False,False,0.0,0.0,Buzz Aldrin,Buzz Aldrin,Buzz Aldrin,0,0,0
+10,4,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,Kate Gosselin,Kate Gosselin,Aiden Turner,1,1,0
+10,5,percentage_regular,percentage,8,False,False,0.0,0.0,Kate Gosselin,Kate Gosselin,Kate Gosselin,0,0,0
+10,6,percentage_regular,percentage,7,False,True,0.0,0.2857142857142857,Jake Pavelka,Niecy Nash,Jake Pavelka,0,1,-1
+10,7,percentage_regular,percentage,6,True,True,0.16666666666666666,0.16666666666666666,Niecy Nash,Niecy Nash,Pamela Anderson,1,1,0
+10,8,percentage_regular,percentage,5,False,False,0.0,0.0,Niecy Nash,Niecy Nash,Niecy Nash,0,0,0
+10,9,percentage_regular,percentage,4,False,False,0.0,0.0,Chad Ochocinco,Chad Ochocinco,Chad Ochocinco,0,0,0
+10,10,percentage_regular,percentage,3,False,False,0.0,0.0,Evan Lysacek,Evan Lysacek,"Evan Lysacek, Nicole Scherzinger, Erin Andrews",0,0,0
+11,1,percentage_regular,percentage,12,True,False,0.4166666666666667,0.0,"David Hasselhoff, Margaret Cho, The Situation",David Hasselhoff,David Hasselhoff,1,0,1
+11,2,percentage_regular,percentage,11,False,False,0.0,0.0,Michael Bolton,Michael Bolton,Michael Bolton,0,0,0
+11,3,percentage_regular,percentage,10,False,False,0.0,0.0,Margaret Cho,Margaret Cho,Margaret Cho,0,0,0
+11,4,percentage_regular,percentage,9,False,True,0.0,0.2222222222222222,The Situation,Bristol Palin,The Situation,0,1,-1
+11,5,percentage_regular,percentage,8,True,True,0.125,0.125,Bristol Palin,Bristol Palin,Florence Henderson,1,1,0
+11,6,percentage_regular,percentage,7,True,True,0.14285714285714285,0.14285714285714285,Kurt Warner,Kurt Warner,Audrina Patridge,1,1,0
+11,7,percentage_regular,percentage,6,True,True,0.16666666666666666,0.16666666666666666,Bristol Palin,Bristol Palin,Rick Fox,1,1,0
+11,8,percentage_regular,percentage,5,True,True,0.2,0.2,Bristol Palin,Bristol Palin,Kurt Warner,1,1,0
+11,9,percentage_regular,percentage,4,True,True,0.25,0.25,Bristol Palin,Bristol Palin,Brandy,1,1,0
+11,10,percentage_regular,percentage,3,False,False,0.0,0.0,Bristol Palin,Bristol Palin,"Kyle Massey, Jennifer Grey, Bristol Palin",0,0,0
+12,2,percentage_regular,percentage,11,True,True,0.18181818181818182,0.2727272727272727,"Sugar Ray Leonard, Mike Catherwood, Wendy Williams",Sugar Ray Leonard,Mike Catherwood,1,1,0
+12,3,percentage_regular,percentage,10,False,False,0.0,0.0,Wendy Williams,Wendy Williams,Wendy Williams,0,0,0
+12,4,percentage_regular,percentage,9,True,False,0.2222222222222222,0.0,Kendra Wilkinson,Sugar Ray Leonard,Sugar Ray Leonard,1,0,1
+12,5,percentage_regular,percentage,8,True,True,1.0,0.125,"Ralph Macchio, Petra Nemcova, Kendra Wilkinson",Kendra Wilkinson,Petra Nemcova,1,1,0
+12,6,percentage_regular,percentage,7,False,False,0.0,0.0,Chris Jericho,Chris Jericho,Chris Jericho,0,0,0
+12,7,percentage_regular,percentage,6,True,True,0.3333333333333333,0.3333333333333333,"Kirstie Alley, Romeo",Kirstie Alley,Kendra Wilkinson,1,1,0
+12,8,percentage_regular,percentage,5,True,True,0.4,1.0,Ralph Macchio,Chelsea Kane,Romeo,1,1,0
+12,9,percentage_regular,percentage,4,False,False,0.0,0.0,Ralph Macchio,Ralph Macchio,Ralph Macchio,0,0,0
+12,10,percentage_regular,percentage,3,False,False,0.0,0.0,Kirstie Alley,Kirstie Alley,"Chelsea Kane, Kirstie Alley, Hines Ward",0,0,0
+13,1,percentage_regular,percentage,12,False,False,0.0,0.0,Metta World Peace (Ron),Metta World Peace (Ron),Metta World Peace (Ron),0,0,0
+13,2,percentage_regular,percentage,11,True,True,0.09090909090909091,0.09090909090909091,Chaz Bono,Chaz Bono,Elisabetta Canalis,1,1,0
+13,3,percentage_regular,percentage,10,True,True,0.1,0.1,Chaz Bono,Chaz Bono,Kristin Cavallari,1,1,0
+13,4,percentage_regular,percentage,9,True,True,0.2222222222222222,0.2222222222222222,Carson Kressley,Nancy Grace,Chynna Phillips,1,1,0
+13,5,percentage_regular,percentage,8,False,True,0.0,0.625,Carson Kressley,Ricki Lake,Carson Kressley,0,1,-1
+13,6,percentage_regular,percentage,7,False,True,0.0,0.42857142857142855,Chaz Bono,Rob Kardashian,Chaz Bono,0,1,-1
+13,7,percentage_regular,percentage,6,True,True,0.16666666666666666,0.16666666666666666,Nancy Grace,Nancy Grace,David Arquette,1,1,0
+13,8,percentage_regular,percentage,5,False,True,0.0,0.6,Nancy Grace,Hope Solo,Nancy Grace,0,1,-1
+13,9,percentage_regular,percentage,4,False,False,0.0,0.0,Hope Solo,Hope Solo,Hope Solo,0,0,0
+13,10,percentage_regular,percentage,3,False,False,0.0,0.0,Ricki Lake,J.R. Martinez,"Ricki Lake, J.R. Martinez, Rob Kardashian",0,0,0
+14,2,percentage_regular,percentage,12,False,True,0.0,0.16666666666666666,Martina Navratilova,Gladys Knight,Martina Navratilova,0,1,-1
+14,3,percentage_regular,percentage,11,True,True,0.6363636363636364,0.18181818181818182,"Jack Wagner, Sherri Sheperd, Melissa Gilbert, Gavin DeGraw, Gladys Knight",Gavin DeGraw,Jack Wagner,1,1,0
+14,4,percentage_regular,percentage,10,True,True,0.7,0.4,Gladys Knight,Jaleel White,Sherri Sheperd,1,1,0
+14,5,percentage_regular,percentage,9,False,False,0.0,0.0,Gavin DeGraw,Gavin DeGraw,Gavin DeGraw,0,0,0
+14,6,percentage_regular,percentage,8,False,False,0.0,0.0,Gladys Knight,Gladys Knight,Gladys Knight,0,0,0
+14,7,percentage_regular,percentage,7,True,True,0.5714285714285714,0.42857142857142855,Melissa Gilbert,Roshon Fegan,Jaleel White,1,1,0
+14,8,percentage_regular,percentage,6,False,True,0.0,0.3333333333333333,Melissa Gilbert,Maria Menounos,"Roshon Fegan, Melissa Gilbert",0,1,-1
+14,9,percentage_regular,percentage,4,True,True,1.0,0.5,Katherine Jenkins,Donald Driver,Maria Menounos,1,1,0
+14,10,percentage_regular,percentage,3,False,False,0.0,0.0,"William Levy, Donald Driver",Donald Driver,"William Levy, Donald Driver, Katherine Jenkins",0,0,0
+15,1,percentage_regular,percentage,13,False,False,0.0,0.0,Pamela Anderson,Pamela Anderson,Pamela Anderson,0,0,0
+15,2,percentage_regular,percentage,12,True,True,0.08333333333333333,0.08333333333333333,Bristol Palin,Bristol Palin,Joey Fatone,1,1,0
+15,3,percentage_regular,percentage,11,True,True,0.09090909090909091,0.09090909090909091,Bristol Palin,Bristol Palin,"Helio Castroneves, Drew Lachey",1,1,0
+15,4,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,Kirstie Alley,Kirstie Alley,Bristol Palin,1,1,0
+15,6,percentage_regular,percentage,8,True,True,0.375,0.25,Emmitt Smith,Kelly Monaco,Sabrina Bryan,1,1,0
+15,8,percentage_regular,percentage,7,False,False,0.0,0.0,Kirstie Alley,Kirstie Alley,"Gilles Marini, Kirstie Alley",0,0,0
+15,9,percentage_regular,percentage,5,False,True,0.0,0.4,Emmitt Smith,Kelly Monaco,"Apolo Anton Ohno, Emmitt Smith",0,1,-1
+15,10,percentage_regular,percentage,3,False,False,0.0,0.0,Shawn Johnson,Kelly Monaco,"Kelly Monaco, Shawn Johnson, Melissa Rycroft",0,0,0
+16,2,percentage_regular,percentage,12,False,False,0.0,0.0,Dorothy Hamill,Dorothy Hamill,Dorothy Hamill,0,0,0
+16,3,percentage_regular,percentage,11,False,False,0.0,0.0,Wynonna Judd,Wynonna Judd,Wynonna Judd,0,0,0
+16,4,percentage_regular,percentage,10,True,True,0.3,0.4,"Victor Ortiz, Lisa Vanderpump",Andy Dick,Lisa Vanderpump,1,1,0
+16,5,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,"D. L. Hughley, Andy Dick",Andy Dick,D. L. Hughley,1,1,0
+16,6,percentage_regular,percentage,8,False,True,0.0,0.25,Victor Ortiz,Andy Dick,Victor Ortiz,0,1,-1
+16,7,percentage_regular,percentage,7,False,False,0.0,0.0,Andy Dick,Andy Dick,Andy Dick,0,0,0
+16,8,percentage_regular,percentage,6,False,False,0.0,0.0,Sean Lowe,Sean Lowe,Sean Lowe,0,0,0
+16,9,percentage_regular,percentage,5,False,True,0.0,0.4,Ingo Rademacher,Zendaya,Ingo Rademacher,0,1,-1
+16,10,percentage_regular,percentage,4,False,False,0.0,0.0,Jacoby Jones,Jacoby Jones,"Zendaya, Alexandra Raisman, Jacoby Jones, Kellie Pickler",0,0,0
+17,2,percentage_regular,percentage,12,True,True,0.25,0.3333333333333333,Bill Nye,"Nicole ""Snooki"" Polizzi",Keyshawn Johnson,1,1,0
+17,3,percentage_regular,percentage,11,True,False,0.45454545454545453,0.0,"Valerie Harper, Bill Nye",Bill Nye,Bill Nye,1,0,1
+17,4,percentage_regular,percentage,10,False,False,0.0,0.0,Valerie Harper,Valerie Harper,Valerie Harper,0,0,0
+17,5,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,Leah Remini,Leah Remini,Christina Milian,1,1,0
+17,7,percentage_regular,percentage,8,True,True,0.125,0.125,Bill Engvall,Bill Engvall,"Nicole ""Snooki"" Polizzi",1,1,0
+17,8,percentage_regular,percentage,7,True,True,0.14285714285714285,0.14285714285714285,Bill Engvall,Bill Engvall,Brant Daugherty,1,1,0
+17,9,percentage_regular,percentage,6,True,True,0.16666666666666666,0.16666666666666666,Bill Engvall,Bill Engvall,Elizabeth Berkley Lauren,1,1,0
+17,10,percentage_regular,percentage,5,True,False,0.4,0.0,Bill Engvall,Leah Remini,Leah Remini,1,0,1
+18,1,percentage_regular,percentage,12,True,True,0.08333333333333333,0.08333333333333333,Billy Dee Williams,Billy Dee Williams,Diana Nyad,1,1,0
+18,2,percentage_regular,percentage,11,False,False,0.0,0.0,Billy Dee Williams,Billy Dee Williams,"Billy Dee Williams, Sean Avery",0,0,0
+18,5,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,Drew Carey,Drew Carey,Cody Simpson,1,1,0
+18,6,percentage_regular,percentage,8,True,False,0.375,0.0,"Candace Cameron Bure, Drew Carey",Drew Carey,Drew Carey,1,0,1
+18,7,percentage_regular,percentage,7,False,False,0.0,0.0,NeNe Leakes,NeNe Leakes,NeNe Leakes,0,0,0
+18,8,percentage_regular,percentage,6,True,True,0.8333333333333334,0.5,"James Maslow, Candace Cameron Bure, Meryl Davis",James Maslow,Danica McKellar,1,1,0
+18,9,percentage_regular,percentage,5,True,True,0.2,0.2,Candace Cameron Bure,Candace Cameron Bure,Charlie White,1,1,0
+18,10,percentage_regular,percentage,4,False,False,0.0,0.0,Candace Cameron Bure,James Maslow,"James Maslow, Candace Cameron Bure, Amy Purdy, Meryl Davis",0,0,0
+19,1,percentage_regular,percentage,13,True,True,0.07692307692307693,0.07692307692307693,Betsey Johnson,Betsey Johnson,Lolo Jones,1,1,0
+19,2,percentage_regular,percentage,12,True,True,0.08333333333333333,0.08333333333333333,Michael Waltrip,Michael Waltrip,Tavis Smiley,1,1,0
+19,3,percentage_regular,percentage,11,False,True,0.0,0.7272727272727273,Randy Couture,Jonathan Bennett,Randy Couture,0,1,-1
+19,4,percentage_regular,percentage,10,True,True,0.2,0.2,Jonathan Bennett,Michael Waltrip,Betsey Johnson,1,1,0
+19,6,percentage_regular,percentage,9,True,False,0.6666666666666666,0.0,"Antonio Sabato Jr., Tommy Chong",Jonathan Bennett,Jonathan Bennett,1,0,1
+19,7,percentage_regular,percentage,8,True,True,0.125,0.125,Michael Waltrip,Michael Waltrip,Antonio Sabato Jr.,1,1,0
+19,8,percentage_regular,percentage,7,False,False,0.0,0.0,Michael Waltrip,Michael Waltrip,Michael Waltrip,0,0,0
+19,9,percentage_regular,percentage,6,True,True,0.16666666666666666,0.16666666666666666,Tommy Chong,Tommy Chong,Lea Thompson,1,1,0
+19,10,percentage_regular,percentage,5,False,True,0.0,0.4,Tommy Chong,Sadie Robertson,Tommy Chong,0,1,-1
+20,2,percentage_regular,percentage,12,True,True,0.08333333333333333,0.08333333333333333,Chris Soules,Chris Soules,Redfoo,1,1,0
+20,3,percentage_regular,percentage,11,True,True,0.09090909090909091,0.09090909090909091,"Charlotte McKinney, Patti LaBelle",Patti LaBelle,Charlotte McKinney,1,1,0
+20,4,percentage_regular,percentage,10,True,True,0.1,0.1,Chris Soules,Chris Soules,Michael Sam,1,1,0
+20,5,percentage_regular,percentage,9,True,True,0.3333333333333333,0.4444444444444444,Robert Herjavec,Noah Galloway,Suzanne Somers,1,1,0
+20,6,percentage_regular,percentage,8,True,True,0.125,0.125,Robert Herjavec,Robert Herjavec,Patti LaBelle,1,1,0
+20,7,percentage_regular,percentage,7,True,True,0.2857142857142857,0.2857142857142857,"Robert Herjavec, Chris Soules",Robert Herjavec,Willow Shields,1,1,0
+20,8,percentage_regular,percentage,6,False,False,0.0,0.0,Robert Herjavec,Chris Soules,"Robert Herjavec, Chris Soules",0,0,0
+20,9,percentage_regular,percentage,4,True,True,0.25,0.25,Noah Galloway,Noah Galloway,Nastia Liukin,1,1,0
+20,10,percentage_regular,percentage,3,False,False,0.0,0.0,Noah Galloway,Noah Galloway,"Riker Lynch, Rumer Willis, Noah Galloway",0,0,0
+21,2,percentage_regular,percentage,13,False,False,0.0,0.0,Chaka Khan,Chaka Khan,"Victor Espinoza, Chaka Khan, Kim Zolciak-Biermann",0,0,0
+21,4,percentage_regular,percentage,10,False,True,0.0,0.2,Gary Busey,Paula Deen,Gary Busey,0,1,-1
+21,6,percentage_regular,percentage,9,False,False,0.0,0.0,Paula Deen,Paula Deen,Paula Deen,0,0,0
+21,7,percentage_regular,percentage,8,True,True,0.375,0.75,Alek Skarlatos,Andy Grammer,Hayes Grier,1,1,0
+21,8,percentage_regular,percentage,7,False,False,0.0,0.0,Andy Grammer,Andy Grammer,Andy Grammer,0,0,0
+21,9,percentage_regular,percentage,6,False,True,0.0,0.3333333333333333,Tamar Braxton,Alek Skarlatos,"Alexa PenaVega, Tamar Braxton",0,1,-1
+22,2,percentage_regular,percentage,12,False,False,0.0,0.0,Geraldo Rivera,Geraldo Rivera,Geraldo Rivera,0,0,0
+22,3,percentage_regular,percentage,11,False,False,0.0,0.0,Mischa Barton,Mischa Barton,Mischa Barton,0,0,0
+22,4,percentage_regular,percentage,10,True,True,0.1,0.1,Doug Flutie,Doug Flutie,Marla Maples,1,1,0
+22,6,percentage_regular,percentage,9,False,False,0.0,0.0,Doug Flutie,Doug Flutie,Doug Flutie,0,0,0
+22,7,percentage_regular,percentage,8,True,True,0.125,0.125,Jodie Sweetin,Jodie Sweetin,"Kim Fields, Von Miller",1,1,0
+22,8,percentage_regular,percentage,6,True,True,0.5,0.8333333333333334,Wanya Morris,Ginger Zee,Jodie Sweetin,1,1,0
+22,9,percentage_regular,percentage,5,False,True,0.0,0.4,Antonio Brown,Ginger Zee,"Antonio Brown, Wanya Morris",0,1,-1
+22,10,percentage_regular,percentage,3,False,False,0.0,0.0,Ginger Zee,Nyle DiMarco,"Paige VanZant, Nyle DiMarco, Ginger Zee",0,0,0
+23,2,percentage_regular,percentage,13,True,True,0.07692307692307693,0.07692307692307693,Rick Perry,Rick Perry,Jake T. Austin,1,1,0
+23,3,percentage_regular,percentage,12,True,True,0.08333333333333333,0.08333333333333333,"Rick Perry, Vanilla Ice",Vanilla Ice,Rick Perry,1,1,0
+23,4,percentage_regular,percentage,11,False,False,0.0,0.0,Babyface,Babyface,"Babyface, Vanilla Ice",0,0,0
+23,6,percentage_regular,percentage,9,False,True,0.0,0.3333333333333333,Amber Rose,Ryan Lochte,Amber Rose,0,1,-1
+23,7,percentage_regular,percentage,8,True,False,0.25,0.0,Marilu Henner,Maureen McCormick,Maureen McCormick,1,0,1
+23,8,percentage_regular,percentage,7,True,True,0.14285714285714285,0.14285714285714285,Marilu Henner,Marilu Henner,Ryan Lochte,1,1,0
+23,9,percentage_regular,percentage,6,True,False,0.3333333333333333,0.0,"Marilu Henner, James Hinchcliffe",Marilu Henner,Marilu Henner,1,0,1
+23,10,percentage_regular,percentage,5,True,True,1.0,0.4,Calvin Johnson Jr.,Jana Kramer,Terra Jole,1,1,0
+24,2,percentage_regular,percentage,12,True,True,0.08333333333333333,0.16666666666666666,"Mr. T, Chris Kattan",Mr. T,Chris Kattan,1,1,0
+24,3,percentage_regular,percentage,11,True,True,0.36363636363636365,0.18181818181818182,"Charo, Mr. T, Bonner Bolton",Mr. T,Charo,1,1,0
+24,4,percentage_regular,percentage,10,False,True,0.0,0.3,Mr. T,Erika Jayne,Mr. T,0,1,-1
+24,5,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,David Ross,David Ross,Erika Jayne,1,1,0
+24,6,percentage_regular,percentage,8,True,True,0.5,0.5,Nick Viall,Nancy Kerrigan,Heather Morris,1,1,0
+24,7,percentage_regular,percentage,7,True,True,0.14285714285714285,0.14285714285714285,Bonner Bolton,Bonner Bolton,"Nancy Kerrigan, Nick Viall",1,1,0
+24,8,percentage_regular,percentage,5,False,False,0.0,0.0,Bonner Bolton,Bonner Bolton,Bonner Bolton,0,0,0
+24,9,percentage_regular,percentage,4,True,True,0.25,0.25,David Ross,David Ross,Simone Biles,1,1,0
+24,10,percentage_regular,percentage,3,False,False,0.0,0.0,David Ross,David Ross,"David Ross, Rashad Jennings, Normani",0,0,0
+25,2,percentage_regular,percentage,13,False,False,0.0,0.0,Barbara Corcoran,Barbara Corcoran,"Barbara Corcoran, Debbie Gibson",0,0,0
+25,4,percentage_regular,percentage,11,True,True,0.45454545454545453,0.36363636363636365,Nick Lachey,Drew Scott,Derek Fisher,1,1,0
+25,5,percentage_regular,percentage,10,True,True,0.1,0.1,Nick Lachey,Nick Lachey,Sasha Pieterse,1,1,0
+25,6,percentage_regular,percentage,9,False,True,0.0,0.3333333333333333,Nick Lachey,Victoria Arlen,Nick Lachey,0,1,-1
+25,7,percentage_regular,percentage,8,False,True,0.0,0.375,Nikki Bella,Lindsey Stirling,"Nikki Bella, Vanessa Lachey",0,1,-1
+25,8,percentage_regular,percentage,6,True,True,0.16666666666666666,0.16666666666666666,Drew Scott,Drew Scott,Terrell Owens,1,1,0
+25,9,percentage_regular,percentage,5,True,True,0.2,0.2,Drew Scott,Drew Scott,Victoria Arlen,1,1,0
+25,10,percentage_regular,percentage,4,False,False,0.0,0.0,Drew Scott,Drew Scott,"Frankie Muniz, Jordan Fisher, Lindsey Stirling, Drew Scott",0,0,0
+26,1,percentage_regular,percentage,10,True,False,0.2,0.0,Kareem Abdul-Jabbar,Johnny Damon,"Jamie Anderson, Johnny Damon",1,0,1
+26,2,percentage_regular,percentage,8,False,True,0.0,0.25,Kareem Abdul-Jabbar,Josh Norman,"Kareem Abdul-Jabbar, Arike Ogunbowale",0,1,-1
+26,3,percentage_regular,percentage,6,False,False,0.0,0.0,Jennie Finch Daigle,Jennie Finch Daigle,"Jennie Finch Daigle, Chris Mazdzer, Mirai Nagasu",0,0,0
+26,4,percentage_regular,percentage,3,False,False,0.0,0.0,Tonya Harding,Tonya Harding,"Tonya Harding, Josh Norman, Adam Rippon",0,0,0
+27,1,percentage_regular,percentage,13,True,True,0.07692307692307693,0.07692307692307693,Joe Amabile,Joe Amabile,Nikki Glaser,1,1,0
+27,2,percentage_regular,percentage,12,True,False,0.16666666666666666,0.0,Joe Amabile,Danelle Umstead,Danelle Umstead,1,0,1
+27,3,percentage_regular,percentage,11,True,True,0.09090909090909091,0.09090909090909091,Joe Amabile,Joe Amabile,Nancy McKeon,1,1,0
+27,4,percentage_regular,percentage,10,True,True,0.1,0.1,Joe Amabile,Joe Amabile,Tinashe,1,1,0
+27,6,percentage_regular,percentage,9,True,True,0.1111111111111111,0.1111111111111111,John Schneider,John Schneider,Mary Lou Retton,1,1,0
+27,7,percentage_regular,percentage,8,True,True,0.25,0.25,Joe Amabile,Bobby Bones,"John Schneider, DeMarcus Ware",1,1,0
+27,8,percentage_regular,percentage,6,True,True,0.16666666666666666,0.16666666666666666,Bobby Bones,Bobby Bones,"Juan Pablo Di Pace, Joe Amabile",1,1,0
+27,9,percentage_regular,percentage,4,False,False,0.0,0.0,Bobby Bones,Evanna Lynch,"Evanna Lynch, Milo Manheim, Bobby Bones, Alexis Ren",0,0,0
+28,2,rank_bottom_two,rank,12,True,True,0.75,0.9166666666666666,Lamar Odom,Kate Flannery,"Ray Lewis, Mary Wilson",1,1,0
+28,4,rank_bottom_two,rank,10,False,True,0.0,0.5,Lamar Odom,James Van Der Beek,Lamar Odom,0,1,-1
+28,6,rank_bottom_two,rank,9,True,True,0.2222222222222222,0.2222222222222222,Sean Spicer,Hannah Brown,Sailor Brinkley-Cook,1,1,0
+28,7,rank_bottom_two,rank,8,True,True,0.25,1.0,Sean Spicer,James Van Der Beek,Karamo Brown,1,1,0
+28,8,rank_bottom_two,rank,7,True,True,0.5714285714285714,1.0,Sean Spicer,"Kate Flannery, James Van Der Beek, Kel Mitchell, Sean Spicer, Lauren Alaina, Ally Brooke, Hannah Brown",Kate Flannery,1,1,0
+28,9,rank_bottom_two,rank,6,False,True,0.0,1.0,Sean Spicer,"James Van Der Beek, Kel Mitchell, Sean Spicer, Lauren Alaina, Ally Brooke, Hannah Brown",Sean Spicer,0,1,-1
+28,10,rank_bottom_two,rank,5,False,True,0.0,1.0,James Van Der Beek,"James Van Der Beek, Kel Mitchell, Lauren Alaina, Ally Brooke, Hannah Brown",James Van Der Beek,0,1,-1
+29,2,rank_bottom_two,rank,15,True,True,0.7333333333333333,0.5333333333333333,"Skai Jackson, Charles Oakley",Veron Davis,Charles Oakley,1,1,0
+29,3,rank_bottom_two,rank,14,False,True,0.0,1.0,Carole Baskin,Johnny Weir,Carole Baskin,0,1,-1
+29,4,rank_bottom_two,rank,13,True,False,0.9230769230769231,0.0,"Anne Heche, Jesse Metcalfe, Nelly, Jeannie Mai",Anne Heche,Anne Heche,1,0,1
+29,5,rank_bottom_two,rank,12,True,True,0.6666666666666666,1.0,"Jesse Metcalfe, Chrishell Stause",Johnny Weir,Jesse Metcalfe,1,1,0
+29,6,rank_bottom_two,rank,11,True,True,0.09090909090909091,0.09090909090909091,Skai Jackson,Skai Jackson,Veron Davis,1,1,0
+29,7,rank_bottom_two,rank,10,False,True,0.0,0.4,Monica Aldama,AJ McLean,"Monica Aldama, Jeannie Mai",0,1,-1
+29,8,rank_bottom_two,rank,8,True,True,0.25,0.875,Nelly,Nev Schulman,Chrishell Stause,1,1,0
+29,9,rank_bottom_two,rank,7,True,True,0.2857142857142857,1.0,Nelly,"Skai Jackson, Justina Machado, Johnny Weir, Nev Schulman, AJ McLean, Nelly, Kaitlyn Bristowe",AJ McLean,1,1,0
+29,10,rank_bottom_two,rank,6,True,True,0.3333333333333333,1.0,Nelly,"Skai Jackson, Justina Machado, Johnny Weir, Nev Schulman, Nelly, Kaitlyn Bristowe","Skai Jackson, Johnny Weir",1,1,0
+30,2,rank_bottom_two,rank,15,False,True,0.0,0.9333333333333333,Martin Kove,JoJo Siwa,Martin Kove,0,1,-1
+30,3,rank_bottom_two,rank,14,True,True,0.6428571428571429,0.9285714285714286,Cody Rigsby,JoJo Siwa,Christine Chiu,1,1,0
+30,4,rank_bottom_two,rank,13,False,True,0.0,0.7692307692307693,Brian Austin Green,Suni Lee,"Brian Austin Green, Matt James",0,1,-1
+30,5,rank_bottom_two,rank,11,True,True,0.7272727272727273,0.2727272727272727,Iman Shumpert,"Mike ""The Miz"" Mizanin",Melanie C,1,1,0
+30,6,rank_bottom_two,rank,10,False,True,0.0,1.0,Kenya Moore,Iman Shumpert,Kenya Moore,0,1,-1
+30,7,rank_bottom_two,rank,9,False,True,0.0,0.5555555555555556,"Mike ""The Miz"" Mizanin",Cody Rigsby,"Mike ""The Miz"" Mizanin",0,1,-1
+30,8,rank_bottom_two,rank,8,False,True,0.0,0.875,Jimmie Allen,Suni Lee,"Jimmie Allen, Olivia Jade",0,1,-1
+30,9,rank_bottom_two,rank,6,True,True,0.5,1.0,Cody Rigsby,"Melora Hardin, Suni Lee, Iman Shumpert, Cody Rigsby, JoJo Siwa, Amanda Kloots","Melora Hardin, Suni Lee",1,1,0
+30,10,rank_bottom_two,rank,4,False,False,0.0,0.0,Cody Rigsby,"Iman Shumpert, Cody Rigsby, JoJo Siwa, Amanda Kloots","Iman Shumpert, Cody Rigsby, JoJo Siwa, Amanda Kloots",0,0,0
+31,1,rank_bottom_two,rank,16,True,True,0.1875,0.5625,Vinny Guadagnino,Heidi D'Amelio,Jason Lewis,1,1,0
+31,2,rank_bottom_two,rank,15,True,True,0.13333333333333333,0.6666666666666666,Cheryl Ladd,Selma Blair,Teresa Giudice,1,1,0
+31,3,rank_bottom_two,rank,14,True,True,0.7142857142857143,1.0,Vinny Guadagnino,Wayne Brady,Cheryl Ladd,1,1,0
+31,4,rank_bottom_two,rank,13,False,True,0.0,0.8461538461538461,Sam Champion,Gabby Windey,Sam Champion,0,1,-1
+31,5,rank_bottom_two,rank,12,True,True,0.4166666666666667,0.5833333333333334,Vinny Guadagnino,Shangela,"Selma Blair, Joseph Baena",1,1,0
+31,6,rank_bottom_two,rank,10,True,True,0.7,0.7,Vinny Guadagnino,Shangela,Jessie James Decker,1,1,0
+31,7,rank_bottom_two,rank,9,True,True,0.5555555555555556,0.7777777777777778,Vinny Guadagnino,Wayne Brady,Jordin Sparks,1,1,0
+31,8,rank_bottom_two,rank,8,False,True,0.0,0.625,Vinny Guadagnino,Gabby Windey,"Heidi D'Amelio, Vinny Guadagnino",0,1,-1
+31,9,rank_bottom_two,rank,6,False,True,0.0,1.0,Trevor Donovan,"Trevor Donovan, Daniel Durant, Wayne Brady, Charli D'Amelio, Shangela, Gabby Windey","Trevor Donovan, Daniel Durant",0,1,-1
+31,10,rank_bottom_two,rank,4,False,False,0.0,0.0,"Wayne Brady, Shangela","Wayne Brady, Charli D'Amelio, Shangela, Gabby Windey","Wayne Brady, Charli D'Amelio, Shangela, Gabby Windey",0,0,0
+32,1,rank_bottom_two,rank,14,True,True,1.0,0.7857142857142857,"Matt Walsh, Tyson Beckford, Harry Jowsey",Lele Pons,Matt Walsh,1,1,0
+32,2,rank_bottom_two,rank,13,True,False,0.9230769230769231,0.0,Mauricio Umansky,Jamie Lynn Spears,Jamie Lynn Spears,1,0,1
+32,3,rank_bottom_two,rank,12,False,True,0.0,1.0,Tyson Beckford,Jason Mraz,Tyson Beckford,0,1,-1
+32,4,rank_bottom_two,rank,11,True,True,0.8181818181818182,0.6363636363636364,"Barry Williams, Alyson Hannigan",Lele Pons,Adrian Peterson,1,1,0
+32,5,rank_bottom_two,rank,10,True,True,1.0,0.5,Harry Jowsey,Mauricio Umansky,Mira Sorvino,1,1,0
+32,6,rank_bottom_two,rank,9,True,True,0.7777777777777778,1.0,Harry Jowsey,Xochitl Gomez,Mauricio Umansky,1,1,0
+32,7,rank_bottom_two,rank,8,True,True,0.875,1.0,Harry Jowsey,Xochitl Gomez,Lele Pons,1,1,0
+32,8,rank_bottom_two,rank,7,True,True,0.42857142857142855,1.0,Harry Jowsey,"Barry Williams, Alyson Hannigan, Xochitl Gomez, Jason Mraz, Harry Jowsey, Charity Lawson, Ariana Madix",Barry Williams,1,1,0
+32,9,rank_bottom_two,rank,6,False,True,0.0,1.0,Harry Jowsey,"Alyson Hannigan, Xochitl Gomez, Jason Mraz, Harry Jowsey, Charity Lawson, Ariana Madix",Harry Jowsey,0,1,-1
+33,2,rank_bottom_two,rank,13,True,False,1.0,0.0,"Eric Roberts, Reginald VelJohnson",Tori Spelling,"Tori Spelling, Anna Delvey",1,0,1
+33,3,rank_bottom_two,rank,11,False,True,0.0,0.2727272727272727,Reginald VelJohnson,Dwight Howard ,"Eric Roberts, Reginald VelJohnson",0,1,-1
+33,4,rank_bottom_two,rank,9,True,True,0.2222222222222222,0.2222222222222222,Dwight Howard ,Jenn Tran,Brooks Nader,1,1,0
+33,5,rank_bottom_two,rank,8,True,False,0.375,0.0,"Dwight Howard , Stephen Nedoroscik, Phaedra Parks",Phaedra Parks,Phaedra Parks,1,0,1
+33,6,rank_bottom_two,rank,7,True,True,0.42857142857142855,1.0,Ilona Maher,"Chandler Kinney, Dwight Howard , Danny Amendola, Stephen Nedoroscik, Ilona Maher, Jenn Tran, Joey Graziadei",Jenn Tran,1,1,0
+33,7,rank_bottom_two,rank,6,False,True,0.0,1.0,Dwight Howard ,"Chandler Kinney, Dwight Howard , Danny Amendola, Stephen Nedoroscik, Ilona Maher, Joey Graziadei",Dwight Howard ,0,1,-1
+33,9,rank_bottom_two,rank,5,False,False,0.0,0.0,Danny Amendola,"Chandler Kinney, Danny Amendola, Stephen Nedoroscik, Ilona Maher, Joey Graziadei","Chandler Kinney, Danny Amendola, Stephen Nedoroscik, Ilona Maher, Joey Graziadei",0,0,0
+34,2,rank_bottom_two,rank,14,False,True,0.0,0.7857142857142857,Corey Feldman,Whitney Leavitt,"Corey Feldman, Baron Davis",0,1,-1
+34,3,rank_bottom_two,rank,12,True,True,0.08333333333333333,0.16666666666666666,"Andy Richter, Lauren Jauregui",Andy Richter,Lauren Jauregui,1,1,0
+34,4,rank_bottom_two,rank,11,True,True,0.9090909090909091,0.7272727272727273,Andy Richter,Alix Earle,Hilaria Baldwin,1,1,0
+34,6,rank_bottom_two,rank,10,True,True,1.0,0.6,Andy Richter,Robert Irwin,Scott Hoying,1,1,0
+34,7,rank_bottom_two,rank,9,True,True,0.2222222222222222,0.4444444444444444,Andy Richter,Danielle Fishel,Jen Affleck,1,1,0
+34,8,rank_bottom_two,rank,8,True,True,0.875,0.625,Andy Richter,Robert Irwin,Danielle Fishel,1,1,0
+34,9,rank_bottom_two,rank,7,False,True,0.0,1.0,Andy Richter,"Elaine Hendrix, Jordan Chiles, Andy Richter, Robert Irwin, Alix Earle, Whitney Leavitt, Dylan Efron",Andy Richter,0,1,-1
+34,10,rank_bottom_two,rank,6,True,True,0.16666666666666666,1.0,Dylan Efron,"Elaine Hendrix, Jordan Chiles, Robert Irwin, Alix Earle, Whitney Leavitt, Dylan Efron",Whitney Leavitt,1,1,0
