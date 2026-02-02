@@ -1,0 +1,70 @@
+# 任务4：终极模型敏感性分析（修正版）
+
+## 完成的工作
+
+### 1. 数据准备与处理
+- 从dwts_rank_bottom_two_processed.csv中识别了21个Bottom Two周
+- 匹配了enhanced_comprehensive_scores.csv中的数据
+- 修正了周数数据类型匹配问题
+
+### 2. Bottom Two周识别与分析
+- 实现了分层SHAP分析
+- 比较了Bottom Two周与常规周的特征重要性差异
+- 发现judge_score在Bottom Two周的平均绝对值SHAP值下降，而fan_vote略有上升
+- 生成了SHAP对比图（shap_comparison_bottom_two_vs_regular.png）
+
+### 3. 规则变更模拟
+- 实现了排名制综合评分计算方法
+- 对赛季27进行了规则变更模拟
+- 发现Bobby Bones在排名制下综合评分下降显著
+- 识别了命运逆转的选手：Juan Pablo Di Pace、DeMarcus Ware和Milo Manheim
+
+### 4. 报告更新
+- 更新了sensitivity_analysis_improved.md
+- 添加了Bottom Two周分析和规则变更模拟的结果
+- 包含了可视化图表和表格
+
+## 主要发现
+
+### 1. Bottom Two周特征重要性变化
+- judge_score：常规周0.0176 → Bottom Two周0.0124（下降30%）
+- fan_vote：常规周0.2747 → Bottom Two周0.2865（上升4%）
+- 其他特征变化较小
+
+### 2. 规则变更对选手的影响
+- **Bobby Bones**：原始平均综合评分0.5587 → 排名制0.3373（下降40%）
+- **DeMarcus Ware**：原始平均综合评分0.8307 → 排名制0.5192（下降38%）
+- **命运逆转的选手**：Juan Pablo Di Pace（-79.4%）、DeMarcus Ware（-68.7%）、Milo Manheim（-67.4%）
+
+### 3. 可视化图表
+- 生成了feature_impact_comparison.png（特征影响对比图）
+- 生成了shap_summary_bar.png（SHAP特征重要性条形图）
+- 生成了shap_summary.png（SHAP特征重要性摘要图）
+- 生成了shap_dependence_*.png（特征依赖图）
+- 生成了shap_comparison_bottom_two_vs_regular.png（Bottom Two周与常规周对比图）
+
+## 工具与代码
+
+### 新增的Python脚本
+1. analyze_bottom_two_weeks.py：分析Bottom Two周的数据结构和SHAP值
+2. analyze_bottom_two_weeks_fixed.py：修正了周数类型匹配问题
+3. simulate_rule_change.py：模拟了将百分比制改为排名制的规则变更
+4. simulate_rank_based_scoring.py：实现了排名制综合评分计算
+
+### 输出文件
+- season_27_rank_based_simulation.csv：赛季27排名制模拟结果
+- shap_bt_mean.csv：Bottom Two周SHAP值统计
+- shap_regular_mean.csv：常规周SHAP值统计
+- shap_comparison_bottom_two_vs_regular.png：SHAP值对比图
+
+## 结论
+
+通过本次任务，我们完成了对DWTS选手淘汰预测模型的修正版敏感性分析，重点分析了Bottom Two周的特殊性和规则变更对选手命运的影响。
+
+**关键发现：**
+1. 在Bottom Two周，评委评分的重要性下降，粉丝投票的重要性略有上升
+2. 规则变更（百分比制→排名制）对选手的综合评分和淘汰概率影响显著
+3. Bobby Bones在排名制下的综合评分显著下降，表明他在排名制下可能会更早被淘汰
+4. 某些选手（如Juan Pablo Di Pace）的淘汰概率在排名制下显著增加
+
+这些发现为理解DWTS比赛的淘汰机制和选手表现提供了有价值的见解。
